@@ -90,6 +90,18 @@ img{
         text-align: center;
     }
 
+    .grupo17 {
+        text-align: center;
+    }
+
+    .grupo18 {
+        text-align: center;
+    }
+
+    .grupo19 {
+        text-align: center;
+    }
+
     p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 125%;
@@ -255,6 +267,7 @@ img{
 
         <div class="grupo16">
             <img id="imagem31" src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/2753.svg" alt="porque?" title="porque?" width="125" height="125">
+            <img id="imagem32" src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f4a1.svg" alt="ideia" title="ideia" width="125" height="125">
         </div>
         
         
@@ -433,6 +446,41 @@ img{
         document.getElementById('imagem31').addEventListener('click', function()
         {
             alert('porque?');
+        });
+
+    document.getElementById('imagem32').addEventListener('click', function()
+        {
+            alert('eu tive uma ideia!');
+        });
+
+        document.getElementById('imagem33').addEventListener('click', function()
+        {
+            alert('correto!');
+        });
+
+        document.getElementById('imagem34').addEventListener('click', function()
+        {
+            alert('errado!');
+        });
+
+        document.getElementById('imagem35').addEventListener('click', function()
+        {
+            alert('eu quero ir para um estadio!');
+        });
+
+        document.getElementById('imagem36').addEventListener('click', function()
+        {
+            alert('eu quero ir para casa!');
+        });
+
+        document.getElementById('imagem37').addEventListener('click', function()
+        {
+            alert('eu quero ir ao um banco!');
+        });
+
+        document.getElementById('imagem38').addEventListener('click', function()
+        {
+            alert('eu quero ir a uma loja!');
         });
 
 
@@ -664,6 +712,55 @@ document.getElementById('imagem14').addEventListener('click', function() {
         document.getElementById('imagem31').addEventListener('click', function() {
             var msg = new SpeechSynthesisUtterance();
             msg.text = "porque?";
+            msg.lang = 'pt-BR'; // Define a linguagem para português
+            window.speechSynthesis.speak(msg);
+        }); //voz da imagens
+
+     document.getElementById('imagem32').addEventListener('click', function() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "eu tive uma ideia!";
+            msg.lang = 'pt-BR'; // Define a linguagem para português
+            window.speechSynthesis.speak(msg);
+        }); //voz da imagens
+
+        document.getElementById('imagem33').addEventListener('click', function() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "correto!";
+            msg.lang = 'pt-BR'; // Define a linguagem para português
+            window.speechSynthesis.speak(msg);
+        }); //voz da imagens
+
+        document.getElementById('imagem34').addEventListener('click', function() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "errado!";
+            msg.lang = 'pt-BR'; // Define a linguagem para português
+            window.speechSynthesis.speak(msg);
+        }); //voz da imagens
+
+        document.getElementById('imagem35').addEventListener('click', function() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "eu quero ir a um estadio!";
+            msg.lang = 'pt-BR'; // Define a linguagem para português
+            window.speechSynthesis.speak(msg);
+        }); //voz da imagens
+
+        document.getElementById('imagem36').addEventListener('click', function() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "eu quero ir para casa!";
+            msg.lang = 'pt-BR'; // Define a linguagem para português
+            window.speechSynthesis.speak(msg);
+        }); //voz da imagens
+
+        document.getElementById('imagem37').addEventListener('click', function() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "eu quero ir a um banco!";
+            msg.lang = 'pt-BR'; // Define a linguagem para português
+            window.speechSynthesis.speak(msg);
+        }); //voz da imagens
+
+        document.getElementById('imagem38').addEventListener('click', function() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "eu quero ir a uma loja!";
             msg.lang = 'pt-BR'; // Define a linguagem para português
             window.speechSynthesis.speak(msg);
         }); //voz da imagens
